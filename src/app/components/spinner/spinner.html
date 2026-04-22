@@ -1,1 +1,6 @@
-<p>spinner works!</p>
+@if (loader.isLoading()) {
+  <div class="loader">
+    <div class="spinner"></div>
+    <p>Loading data...</p>
+  </div>
+}

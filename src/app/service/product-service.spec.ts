@@ -1,5 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 
+// Update the import path to match the actual file name, e.g., 'product.service'
 import { ProductService } from './product-service';
 
 describe('ProductService', () => {

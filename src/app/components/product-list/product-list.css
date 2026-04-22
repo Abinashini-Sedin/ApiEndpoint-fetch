@@ -1,0 +1,56 @@
+/* Page background */
+body {
+  background: #eef2f7;
+}
+
+/* Container */
+.container {
+  max-width: 1000px;
+  margin: 40px auto;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Button */
+button {
+  display: block;
+  margin: 0 auto 25px auto;
+  padding: 12px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* Horizontal grid */
+ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+  padding: 0;
+  list-style: none;
+}
+
+/* Box style */
+li {
+  padding: 15px;
+  border-radius: 10px;
+  background: #e3f2fd;        /* 🔵 light background */
+  border: 2px solid black;    /* ⚫ always black border */
+  transition: 0.3s;
+}
+
+/* Hover effect */
+li:hover {
+  background: #bbdefb;        /* slightly darker */
+  transform: scale(1.03);
+}

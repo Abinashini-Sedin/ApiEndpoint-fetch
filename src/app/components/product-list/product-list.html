@@ -1,1 +1,13 @@
-<p>product-list works!</p>
+<h1 style="text-align: center;">Api data fetching mechanism</h1>
+<button style="display: block; margin: 0 auto 25px auto;" (click)="fetchPosts()">FetchPosts</button>
+ <button style="display: block; background-color: brown; margin : 0 auto 25px auto;" (click)="fetchWrongPosts()">WrongFetchPosts</button>
+<app-spinner></app-spinner>
+<ul>
+    @for(post of posts();track post.id){
+        <li>{{ post.id }}: {{ post.title }}</li>
+
+        
+    }
+   
+
+</ul>
